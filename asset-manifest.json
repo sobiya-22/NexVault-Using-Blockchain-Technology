@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/css/main.8fbda260.css",
+    "main.js": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/main.e6299efa.js",
+    "static/js/453.2777aae7.chunk.js": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/453.2777aae7.chunk.js",
+    "static/media/blockchainImg.png": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/media/blockchainImg.a6289eabb6d6d0adda56.png",
+    "index.html": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/index.html",
+    "main.8fbda260.css.map": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/css/main.8fbda260.css.map",
+    "main.e6299efa.js.map": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/main.e6299efa.js.map",
+    "453.2777aae7.chunk.js.map": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/453.2777aae7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fbda260.css",
+    "static/js/main.e6299efa.js"
+  ]
+}
