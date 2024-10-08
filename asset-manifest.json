@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/css/main.8fbda260.css",
-    "main.js": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/main.e6299efa.js",
-    "static/js/453.2777aae7.chunk.js": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/453.2777aae7.chunk.js",
-    "static/media/blockchainImg.png": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/media/blockchainImg.a6289eabb6d6d0adda56.png",
-    "index.html": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/index.html",
-    "main.8fbda260.css.map": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/css/main.8fbda260.css.map",
-    "main.e6299efa.js.map": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/main.e6299efa.js.map",
-    "453.2777aae7.chunk.js.map": "/https://github.com/sobiya-22/NexVault-Using-Blockchain-Technology.git/static/js/453.2777aae7.chunk.js.map"
+    "main.css": "/NexVault-Using-Blockchain-Technology.git/static/css/main.8fbda260.css",
+    "main.js": "/NexVault-Using-Blockchain-Technology.git/static/js/main.84626e5c.js",
+    "static/js/453.2777aae7.chunk.js": "/NexVault-Using-Blockchain-Technology.git/static/js/453.2777aae7.chunk.js",
+    "static/media/blockchainImg.png": "/NexVault-Using-Blockchain-Technology.git/static/media/blockchainImg.a6289eabb6d6d0adda56.png",
+    "index.html": "/NexVault-Using-Blockchain-Technology.git/index.html",
+    "main.8fbda260.css.map": "/NexVault-Using-Blockchain-Technology.git/static/css/main.8fbda260.css.map",
+    "main.84626e5c.js.map": "/NexVault-Using-Blockchain-Technology.git/static/js/main.84626e5c.js.map",
+    "453.2777aae7.chunk.js.map": "/NexVault-Using-Blockchain-Technology.git/static/js/453.2777aae7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8fbda260.css",
-    "static/js/main.e6299efa.js"
+    "static/js/main.84626e5c.js"
   ]
 }
