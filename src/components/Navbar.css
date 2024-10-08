@@ -1,0 +1,27 @@
+.navbar{
+  backdrop-filter:blur(30px);;
+}
+.navbar-brand {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(214, 211, 211);
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 740px;
+  }
+  .navbar-brand:link, .navbar-brand:visited, .navbar-brand:hover, .navbar-brand:active {
+    color: rgb(214, 211, 211); 
+    text-decoration: none; 
+  }
+  .navbar-components{
+    font-size: 20px;
+    color: rgb(214, 211, 211); 
+    transition: transform 0.2s;
+  }
+  .navbar-components:hover{
+    transform: scale(1.1);
+    color:rgb(61, 89, 214);
+  }
+  

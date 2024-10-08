@@ -1,0 +1,46 @@
+.container{
+    margin-top: 130px;
+}
+.brand-logo{
+    margin-right: 0;
+    padding: 0;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.bold-words{
+    color: rgb(222, 222, 6);
+}
+.brand-lines{
+    color: rgb(214, 211, 211);
+    /* font-size: 100px; */
+    /* margin-top: 30px; */
+}
+.brand-lines h1{
+    font-size: 75px;
+}
+.brand-subLines h3 {
+    color: rgb(61, 89, 214);
+    /* margin-bottom: 0px; */
+}
+.buttons{
+    margin-top: 60px;
+}
+.btn{
+    height: 50px;
+    width: 180px;
+    color: white;
+    background: none;
+    border: 1px solid rgb(61, 89, 214);
+    border-radius: 50px;
+}
+.btn:hover{
+    color: white;
+    background: rgb(61, 89, 214);
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
