@@ -1,0 +1,367 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(214, 211, 211);
+  background: #080018;
+}
+strong, b {
+  color: yellow;
+}
+a {
+  color:yellow;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Section */
+.header {
+  position: relative;
+  height: 70vh;
+  background: url('../assets/images/Main_bg.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; 
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: rgb(222, 222, 6);
+}
+
+.header p {
+  font-size: 1.5em; /* Adjusted for better alignment */
+  margin-bottom: 1.5em;
+}
+
+.header .btn {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 1px solid rgb(61, 89, 214);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.header .btn:hover {
+  color: white;
+  background: rgb(61, 89, 214);
+}
+
+/* Sections */
+section {
+  padding: 35px 10px;
+  max-width: 1200px;
+  margin: 10px auto;
+  background-color: transparent;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section:nth-child(even) {
+  background-color: transparent;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3em;
+  color:yellow;
+  position: relative;
+  display: inline-block;
+}
+
+section h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+}
+
+.section-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.section-content .text {
+  flex:1 1 45%;
+  padding: 30px;
+  color: rgb(214, 211, 211);
+  font-size: 1.2em;
+  line-height: 1.6; 
+}
+
+.section-content .image {
+  flex:  1 1 30%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section-content .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-content .image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Our Technology */
+#technology {
+  /* AOS attributes are handled via data-aos in JSX */
+}
+
+/* Our Team */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  flex: 1 1 250px;
+  margin: 30px;
+  text-align: center;
+  background-color: transparent;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+  transform: scale(1.1);
+}
+
+/* Our Values */
+#values {
+  /* AOS attributes are handled via data-aos in JSX */
+}
+
+#values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#values ul li {
+  margin-bottom: 15px;
+  font-size: 1.2em; /* Reduced font size */
+}
+
+#values ul li::before {
+  content: "✔️";
+  margin-right: 10px;
+  color: #007bff;
+}
+
+/* Testimonials */
+.testimonial {
+  position: relative;
+  background-color: transparent;
+  padding: 40px;
+  border-left: 5px solid #007bff;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.quote-icon {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  font-size: 3em;
+  color: #007bff;
+}
+
+.testimonial p {
+  font-size: 1.2em; 
+  line-height: 1.6; 
+  margin-bottom: 20px;
+}
+
+/* Call to Action */
+.cta {
+  text-align: center;
+  padding: 40px 10px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.cta h2 {
+  margin-bottom: 30px;
+  font-size: 3em;
+}
+
+.cta .bold-text {
+  color: yellow;
+}
+
+.cta p {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  line-height: 1.6; 
+}
+
+.cta .btn {
+  padding: 15px 40px;
+  background-color: rgb(61, 89, 214);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta .btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #080018; 
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    flex-direction: column;
+  }
+
+  .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header p {
+    font-size: 1.3em;
+  }
+
+  .header h1 {
+    font-size: 2.5em;
+  }
+
+  section h2 {
+    font-size: 2.5em;
+  }
+
+  .section-content .text {
+    font-size: 1.1em; 
+    padding: 20px;
+  }
+
+  .section-content .image {
+    padding: 20px;
+  }
+
+  .testimonial {
+    padding: 30px;
+  }
+
+  .testimonial p {
+    font-size: 1.1em; 
+  }
+
+  .cta h2 {
+    font-size: 2.5em;
+  }
+
+  .cta p {
+    font-size: 1.1em;
+  }
+
+  footer p,
+  footer a {
+    font-size: 1em;
+  }
+}
+
+
+#mission .section-content .text p,
+#technology .section-content .text p,
+#values .section-content .text p,
+#testimonials .section-content .text p {
+  font-size: 1.2em; 
+  line-height: 1.6; 
+  margin-bottom: 1.2em;
+}

@@ -1,6 +1,10 @@
 import React from 'react'
 import img from '../assets/blockchainImg.png';
 import './Branding.css'
+import './About-us'
+import './LearnMore'
+import { Link } from "react-router-dom";
+
 export default function Branding() {
     return (
         <div className="container">
@@ -15,7 +19,9 @@ export default function Branding() {
                     </div>
                     <div className='buttons'>
                     <button type="button" className="btn create-account">Create Account</button>
-                    <button type="button" className="btn learn-more mx-5">Learn More</button>
+                    <Link to="/LearnMore">
+                    <button type="button"  className="btn learn-more mx-5">Learn More</button>
+                    </Link>
                 </div>
                 </div>
                 <img src={img} className=" col-md-5 img-fluid brand-logo" alt="brand-image" />

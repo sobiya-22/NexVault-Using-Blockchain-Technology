@@ -39,17 +39,21 @@ export default function ServiceCards() {
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <div className="slider-wrapper">
-                    {getVisibleIndexes().map((i) => (
-                        <div className={`slider-card ${i === index ? 'active' : ''}`} key={i}>
-                            <img src="https://nerdleveltech.com/wp-content/uploads/Blockchain.webp" alt="" />
-                            <div className="card-body">
-                                <h4>Card {i + 1}</h4>
-                                <p className="card-text">This is card {i + 1}'s content.</p>
-                            </div>
+                {getVisibleIndexes().map((i) => (
+                    <div className={`slider-card ${i === index ? 'active' : ''}`} key={i}>
+                        <img src="https://nerdleveltech.com/wp-content/uploads/Blockchain.webp" alt="" />
+                        <div className="card-body">
+                            <h4>Service {i + 1}</h4>
+                            <p className="card-text">
+                                {i === 0 && "Secure Data Management: Leverage blockchain's immutability for tamper-proof data storage and verification."}
+                                {i === 1 && "Smart Contracts: Automate transactions with self-executing smart contracts, ensuring transparency and efficiency."}
+                                {i === 2 && "Supply Chain Transparency: Track and authenticate products in real-time, reducing fraud and increasing trust."}
+                                {i === 3 && "Digital Identity: Empower users with secure, self-sovereign digital identities that reduce fraud and enhance privacy."}
+                                {i === 4 && "Blockchain Analytics: Real-time insights into blockchain data to optimize operations and detect anomalies."}
+                            </p>
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
                 <button className="carousel-control-next" onClick={handleNext}>
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>

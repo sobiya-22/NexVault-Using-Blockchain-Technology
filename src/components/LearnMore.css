@@ -1,0 +1,387 @@
+/* LearnMore.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(214, 211, 211);
+  background: #080018;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Section */
+.learn-header {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; 
+  overflow: hidden; 
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  object-fit: cover; 
+}
+
+/* Header Content */
+.learn-header .header-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.learn-header h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #e2e206; /* Consistent color */
+}
+
+.learn-header p {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.learn-header .btn {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 1px solid  yellow;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.learn-header .btn:hover {
+  color: white;
+  background: rgb(163, 163, 58);
+}
+
+/* Services Section */
+.services-section {
+  padding: 50px 10px;
+  background-color: #0a0a2a;
+}
+
+.services-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3em;
+  color:yellow;
+  position: relative;
+  display: inline-block;
+}
+
+.services-section h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+.service-card {
+  background-color: #1a1a40;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.service-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.service-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.8em;
+  color: #e2e206;
+}
+
+.service-card p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Why Choose Us Section */
+.why-choose-section {
+  padding: 50px 10px;
+}
+
+.why-choose-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3em;
+  color: yellow;
+  position: relative;
+  display: inline-block;
+}
+
+.why-choose-section h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+}
+
+.why-choose-section .section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #0a0a2a;
+  border-radius: 8px;
+}
+
+.why-choose-section .text {
+  flex: 1 1 45%;
+  padding: 20px;
+  color: #d6d3d3;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.why-choose-section .video {
+  flex: 1 1 45%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-choose-section .why-choose-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.why-choose-section .why-choose-background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-section .why-choose-background-video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 50px 10px;
+  background-color: #0a0a2a;
+}
+
+.testimonials-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3em;
+  color: yellow;
+  position: relative;
+  display: inline-block;
+}
+
+.testimonials-section h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+}
+
+.testimonials-section .testimonial {
+  position: relative;
+  background-color: #1a1a40;
+  padding: 40px;
+  border-left: 5px solid #007bff;
+  margin: 20px auto;
+  border-radius: 4px;
+  max-width: 800px;
+  color: #fff;
+}
+
+.testimonials-section .quote-icon {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  font-size: 3em;
+  color: #007bff;
+}
+
+.testimonials-section .testimonial p {
+  font-size: 1.2em; 
+  line-height: 1.6; 
+  margin-bottom: 20px;
+}
+
+/* Call to Action */
+.cta {
+  text-align: center;
+  padding: 50px 10px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.cta h2 {
+  margin-bottom: 30px;
+  font-size: 3em;
+}
+
+.cta .bold-text {
+  color: yellow;
+}
+
+.cta p {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  line-height: 1.6; 
+}
+
+.cta .btn {
+  padding: 10px 40px;
+  background-color: #3d59d6;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta .btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: #080018;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .learn-header {
+    height: 50vh;
+  }
+
+  .services-section .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-choose-section .section-content,
+  .case-studies-section .case-study-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-choose-section .text,
+  .why-choose-section .video {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+
+
+  footer p,
+  footer a {
+    font-size: 1em;
+  }
+}
+/* Why Choose Us Video Styling */
+.why-choose-section .why-choose-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.why-choose-section .why-choose-background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-section .why-choose-background-video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
