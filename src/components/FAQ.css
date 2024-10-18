@@ -1,0 +1,33 @@
+.faq-sidebar {
+    width: 450px;
+    margin: 0;
+    height: 600px;
+    background: linear-gradient(to right, #020240, #100000);
+    color: rgb(222, 222, 6);
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: 200px;
+  }
+  
+  .faq-title {
+    cursor: pointer;
+    margin-bottom: 0px;
+  }
+  
+  .faq-question {
+    margin: 50px 0;
+    padding: 10px;
+    border: 4px solid rgba(202, 212, 93, 0.2);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    border: 4px solid rgba(202, 212, 93, 0.2);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+ 
+  

@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b0113; /* Light background */
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: space-between; /* Aligns containers to left and right */
+  align-items: flex-start; /* Aligns items to the top */
+  padding: 20px; /* Space around the main container */
+}
+
+.contact-container {
+  flex: 1; /* Allow this to take up available space */
+  margin-right: 20px; /* Space between contact and FAQ */
+}
+
+.faq-container {
+  flex: 1; /* Allow this to take up available space */
+}
+
+/* Your existing styles for form and FAQ can go here */
+
+@media (max-width: 768px) {
+  .main-container {
+      flex-direction: column; /* Stack them vertically on smaller screens */
+  }
+}
+

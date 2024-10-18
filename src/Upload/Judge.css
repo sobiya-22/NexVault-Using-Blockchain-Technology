@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #10132a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.app-container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.dashboard-sidebar {
+    width: 320px; /* Fixed width for the sidebar */
+    background: linear-gradient(to right, #020240, #100000); /* Fixed gradient background */
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 700px;
+}
+
+.dashboard-header {
+    padding: 20px;
+    text-align: center;
+    color: rgb(222, 222, 6);
+}
+
+.dashboard-header h1 {
+    font-size: 35px; /* Set the font size of the header title */
+}
+
+
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul li {
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s, border 0.3s;
+    border: 2px solid transparent; /* Default border */
+}
+
+nav ul li:hover {
+    background-color: linear-gradient(to right, #020240, #100000);
+}
+
+nav ul li.active {
+    border: 2px solid #28d4fa; /* Color of the border when active */
+    color: #28d4fa; /* Change text color when active */
+}
+
+
+.portal-link {
+    text-align: center;
+    padding: 10px;
+}
+
+.portal-link a {
+    color: #28d4fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard-content {
+    flex-grow: 1; /* Allow content to take remaining space */
+    padding: 20px;
+    overflow-y: auto; /* Add scrolling if content overflows */
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center content */
+    background-color:linear-gradient(to right, #020240, #100000);
+}
+
+.portal-title {
+    text-align: center;
+    color:rgb(243, 243, 240); /* Match the header color */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 50px; /* Decrease font size */
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Wrap cards to next line if necessary */
+    justify-content: center; /* Center cards horizontally */
+    margin-top: 20px; /* Add some space above the cards */
+    background-color:linear-gradient(to right, #020240, #100000);
+}
+
+.dashboard-card {
+    background: linear-gradient(to right, #020240, #100000);
+    padding: 30px; /* Increase padding for more internal space */
+    border-radius: 8px;
+    border: 2px solid #e8e7e5;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px; /* Set a max width for the cards */
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 300px; /* Adjust height if needed */
+    color:rgb(222, 222, 6);
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    margin: 20px; /* Add margin around the cards */
+}
+
+
+
+.dashboard-card:hover {
+    transform: scale(1.05);
+}
+
+.dashboard-card h3 {
+    color: rgb(216, 226, 69);
+    font-size: 30px; /* Increase font size of card titles */
+    margin-bottom: 0px;
+   
+}
+.dashboard-card img {
+    width: 100px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space below the image */
+}
+
