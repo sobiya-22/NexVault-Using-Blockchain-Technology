@@ -44,3 +44,7 @@
 }
 
 
+/* Blurring background when modal opens */
+.blur-background {
+    filter: blur(5px);
+}

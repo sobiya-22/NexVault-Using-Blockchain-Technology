@@ -1,0 +1,193 @@
+/* Sign-Up Modal Styling */
+.signup-modal {
+    position: fixed;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0d0027; /* Modal background */
+    padding: 20px;
+    border-radius: 5px;
+    width: 450px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(50, 57, 191, 0.71);
+    height: 550px;
+    color: rgb(214, 211, 211); /* Text color */
+}
+
+/* Background color for the overall sign-in page */
+body {
+    background: #080018; /* Dark background */
+}
+
+.signup-modal h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: rgb(222, 222, 6); /* Yellow for title */
+}
+
+.tab-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(61, 89, 214); /* Blue border for tab header */
+}
+
+.tab-header button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(222, 222, 6); /* Yellow text */
+}
+
+.tab-header .active-tab {
+    border-bottom: 3px solid rgb(222, 222, 6); /* Yellow for active tab */
+    font-weight: bold;
+}
+
+/* Input fields with icons and bold underline */
+.signup-modal input[type="text"], 
+.signup-modal input[type="password"], 
+.signup-modal input[type="email"] {
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 40px; /* Added padding to the left for icons */
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ccc; /* Bold underline */
+    background: transparent;
+    color: rgb(214, 211, 211); /* Text color */
+    font-size: 14px;
+    outline: none;
+    transition: border-bottom 0.3s ease;
+}
+
+.signup-modal input[type="text"]:focus, 
+.signup-modal input[type="password"]:focus, 
+.signup-modal input[type="email"]:focus {
+    border-bottom: 2px solid rgb(222, 222, 6); /* Yellow underline on focus */
+}
+
+/* Label and Icons for each field */
+.signup-modal .form-group {
+    position: relative;
+}
+
+.signup-modal .form-group i {
+    position: absolute;
+    left: 10px; /* Icon position adjusted */
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(222, 222, 6); /* Yellow for icons */
+    font-size: 16px;
+}
+
+.signup-modal button[type="submit"] {
+    width: 100%;
+    background-color: #080018; /* Matching button background */
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(61, 89, 214);
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-modal button[type="submit"]:hover {
+    background-color: rgb(61, 89, 214); /* Blue on hover */
+}
+
+.or-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    color: rgb(214, 211, 211); /* Gray divider */
+}
+
+.or-divider::before, .or-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 10px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    color: #0d0027;
+}
+
+.social-login button {
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white; /* Google button color */
+    color: rgb(1, 1, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Google Icon Styling */
+.social-login button .google-icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* Close Button */
+.signup-modal .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(222, 222, 6); /* Yellow for close button */
+}
+/* Forgot Password link */
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot-password a {
+    color: white; /* Blue color for the link */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.role-selection {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.role-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.role-options button {
+    background-color: #080018; /* Dark background for buttons */
+    color: white;
+    border: 1px solid rgb(61, 89, 214); /* Blue border */
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.role-options button:hover {
+    background-color: rgb(61, 89, 214); /* Blue hover */
+}
+
