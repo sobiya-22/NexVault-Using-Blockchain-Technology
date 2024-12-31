@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NexVault-Using-Blockchain-Technology/static/css/main.ab149b55.css",
-    "main.js": "/NexVault-Using-Blockchain-Technology/static/js/main.215a59e6.js",
+    "main.js": "/NexVault-Using-Blockchain-Technology/static/js/main.ff85f3f1.js",
     "static/js/453.c792aa4c.chunk.js": "/NexVault-Using-Blockchain-Technology/static/js/453.c792aa4c.chunk.js",
     "static/media/wiring.mp4": "/NexVault-Using-Blockchain-Technology/static/media/wiring.a4e9280eb553f26dcc17.mp4",
     "static/media/mission.jpg": "/NexVault-Using-Blockchain-Technology/static/media/mission.b014a154b3182c2327ca.jpg",
@@ -31,11 +31,11 @@
     "index.html": "/NexVault-Using-Blockchain-Technology/index.html",
     "static/media/slick.woff": "/NexVault-Using-Blockchain-Technology/static/media/slick.295183786cd8a1389865.woff",
     "main.ab149b55.css.map": "/NexVault-Using-Blockchain-Technology/static/css/main.ab149b55.css.map",
-    "main.215a59e6.js.map": "/NexVault-Using-Blockchain-Technology/static/js/main.215a59e6.js.map",
+    "main.ff85f3f1.js.map": "/NexVault-Using-Blockchain-Technology/static/js/main.ff85f3f1.js.map",
     "453.c792aa4c.chunk.js.map": "/NexVault-Using-Blockchain-Technology/static/js/453.c792aa4c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab149b55.css",
-    "static/js/main.215a59e6.js"
+    "static/js/main.ff85f3f1.js"
   ]
 }
