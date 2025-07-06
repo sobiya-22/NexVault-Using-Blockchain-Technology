@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/NexVault-Using-Blockchain-Technology/static/css/main.ab149b55.css",
-    "main.js": "/NexVault-Using-Blockchain-Technology/static/js/main.ff85f3f1.js",
-    "static/js/453.c792aa4c.chunk.js": "/NexVault-Using-Blockchain-Technology/static/js/453.c792aa4c.chunk.js",
+    "main.css": "/NexVault-Using-Blockchain-Technology/static/css/main.c44a3671.css",
+    "main.js": "/NexVault-Using-Blockchain-Technology/static/js/main.967bd1a0.js",
     "static/media/wiring.mp4": "/NexVault-Using-Blockchain-Technology/static/media/wiring.a4e9280eb553f26dcc17.mp4",
     "static/media/mission.jpg": "/NexVault-Using-Blockchain-Technology/static/media/mission.b014a154b3182c2327ca.jpg",
     "static/media/Main_bg.jpg": "/NexVault-Using-Blockchain-Technology/static/media/Main_bg.82cb87103de0a31e58d4.jpg",
     "static/media/blocks.jpg": "/NexVault-Using-Blockchain-Technology/static/media/blocks.975b5f95d0091a796780.jpg",
     "static/media/sobiya.jpg": "/NexVault-Using-Blockchain-Technology/static/media/sobiya.671fda904451cc7b7850.jpg",
     "static/media/server.jpg": "/NexVault-Using-Blockchain-Technology/static/media/server.84bcf0e8beb90bcc1fb3.jpg",
-    "static/media/mail_icon.png": "/NexVault-Using-Blockchain-Technology/static/media/mail_icon.6a91438c6f631d0e8e9a.png",
     "static/media/chain_lock.png": "/NexVault-Using-Blockchain-Technology/static/media/chain_lock.39c26831bc24c4afc49a.png",
     "static/media/sakshi.jpg": "/NexVault-Using-Blockchain-Technology/static/media/sakshi.d7440396075cbf9d1567.jpg",
     "static/media/blockchain.jpeg": "/NexVault-Using-Blockchain-Technology/static/media/blockchain.c210e6c88fb5ce6e4389.jpeg",
@@ -22,20 +20,17 @@
     "static/media/diksha.jpg": "/NexVault-Using-Blockchain-Technology/static/media/diksha.a82b94a36e604e0b291f.jpg",
     "static/media/white_chain.jpg": "/NexVault-Using-Blockchain-Technology/static/media/white_chain.dbee634a9a08c1260029.jpg",
     "static/media/blue_chain.jpg": "/NexVault-Using-Blockchain-Technology/static/media/blue_chain.da69d05fc852ace82f81.jpg",
-    "static/media/person_icon.png": "/NexVault-Using-Blockchain-Technology/static/media/person_icon.0aee44ea4176f0dccc53.png",
-    "static/media/msg_icon.png": "/NexVault-Using-Blockchain-Technology/static/media/msg_icon.adbf9dd1d96875039dc9.png",
     "static/media/chaining.jpeg": "/NexVault-Using-Blockchain-Technology/static/media/chaining.6efc8a72b427e20829f5.jpeg",
     "static/media/slick.svg": "/NexVault-Using-Blockchain-Technology/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/NexVault-Using-Blockchain-Technology/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/NexVault-Using-Blockchain-Technology/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/NexVault-Using-Blockchain-Technology/index.html",
     "static/media/slick.woff": "/NexVault-Using-Blockchain-Technology/static/media/slick.295183786cd8a1389865.woff",
-    "main.ab149b55.css.map": "/NexVault-Using-Blockchain-Technology/static/css/main.ab149b55.css.map",
-    "main.ff85f3f1.js.map": "/NexVault-Using-Blockchain-Technology/static/js/main.ff85f3f1.js.map",
-    "453.c792aa4c.chunk.js.map": "/NexVault-Using-Blockchain-Technology/static/js/453.c792aa4c.chunk.js.map"
+    "main.c44a3671.css.map": "/NexVault-Using-Blockchain-Technology/static/css/main.c44a3671.css.map",
+    "main.967bd1a0.js.map": "/NexVault-Using-Blockchain-Technology/static/js/main.967bd1a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab149b55.css",
-    "static/js/main.ff85f3f1.js"
+    "static/css/main.c44a3671.css",
+    "static/js/main.967bd1a0.js"
   ]
 }
